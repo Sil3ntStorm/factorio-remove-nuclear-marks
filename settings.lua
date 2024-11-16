@@ -27,3 +27,13 @@ if not mods['Mower'] and not mods['Dectorio'] then
         },
     })
 end
+
+data:extend({
+    {
+        name = 'sil-rmnmks-restore-original',
+        type = 'bool-setting',
+        setting_type = 'runtime-global',
+        order = 'd',
+        default_value = true
+    }
+})
